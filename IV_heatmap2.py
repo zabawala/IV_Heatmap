@@ -172,7 +172,7 @@ def main():
                             step = 0.01)
         
         mp = st.number_input("Option Market Price", 
-                            value = 10.0, 
+                            value = 25.0, 
                             step = .1)
         
     if choice == "Call":
