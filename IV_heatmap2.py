@@ -174,6 +174,14 @@ def main():
         mp = st.number_input("Option Market Price", 
                             value = 25.0, 
                             step = .1)
+        st.markdown("""
+                    <div style="padding: 10px; border-radius: 5px;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="20">
+                        <a href="https://www.linkedin.com/in/alexandertan2011" target="_blank">
+                        &nbsp;Alexander Tan
+                        </a>
+                    </div>
+                    """, unsafe_allow_html=True)
         
     if choice == "Call":
         df_heatmap = data_frame_call(min_K, max_K, S, r, mp)
