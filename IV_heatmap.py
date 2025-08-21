@@ -187,7 +187,8 @@ def main():
                     has issues with convergence, especially if the initial guess is far.  \
                     The reason I've used this method is because Newton-Raphson often appears  \
                     in undergraduate study and I thought it was worth adding to demonstrate its limitations.  \
-                    Here is the link to my Implied Volatility Heatmap which uses Brent's method.
+                    <a href="https://ivheatmap-brents.streamlit.app/">Here</a> is the link to my Implied \
+                    Volatility Heatmap which uses Brent's method.
                 </div>
                 """,
                 unsafe_allow_html=True
