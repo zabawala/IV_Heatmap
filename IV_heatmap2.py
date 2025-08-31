@@ -25,7 +25,8 @@ import seaborn as sns
 
 st.set_page_config(layout="wide")
 st.title("Implied Volatility - Interactive Heatmap")
-st.text("Demonstrates how Implied Volatility of a stock varies with Time to Maturity (t) and the Strike Price (K) of the option")
+st.text("Demonstrates how Implied Volatility of a stock varies with Time to Maturity (t) and the Strike Price (K) of the option " \
+"based on the Black-Scholes Model")
 
 # ---------------------------------
 # Math functions used in solvers
